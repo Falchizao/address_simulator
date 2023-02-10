@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
+	ckafka "github.com/confluentinc/confluent-kafka-go/v2/kafka"
 )
 
 type KafkaConsumer struct {
